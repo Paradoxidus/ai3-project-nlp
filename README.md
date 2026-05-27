@@ -6,7 +6,7 @@
 
 | Contributors                          | GitHub Username | Role/Responsibility                                                                 | LinkedIn |
 |-------------------------------|-----------------|-------------------------------------------------------------------------------------|----------|
-| Aaron Gabriel L. Novesteras   | [@Paradoxidus](https://github.com/Paradoxidus) | Paper writing, training & validation, testing, results analysis                     | [LinkedIn](https://www.linkedin.com/in/aaron-gabriel-novesteras-077a352a9) |
-|  William Daniel D. Aguilar      | -             | Documentation (Colab notebooks, paper, supporting materials)                        | - |
-|  Nicko Gabriel A. Baldo        | -             | Training, paper writing, deployment                                                 | - |
+| Aaron Gabriel L. Novesteras   | [@Paradoxidus](https://github.com/Paradoxidus) | Paper writing, training & validation, testing, results analysis, presetation                     | [LinkedIn](https://www.linkedin.com/in/aaron-gabriel-novesteras-077a352a9) |
+|  William Daniel D. Aguilar      | -             | Documentation (Colab notebooks, paper, supporting materials), Paper writing, training and validation, deployment, presentation                   | - |
+|  Nicko Gabriel A. Baldo        | -             | Training, paper writing, deployment, presentation                                                 | - |
 
