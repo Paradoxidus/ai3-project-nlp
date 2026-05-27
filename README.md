@@ -14,17 +14,17 @@
 
 ## 📦 Dependencies
 
-**Document Processing & Vector Store**
+1. **Document Processing & Vector Store**
 - PyMuPDF   
 - LangChain (Text Splitters)   
 - FAISS (Facebook AI Similarity Search)
-**Model & NLP Frameworks**
+2. **Model & NLP Frameworks**
 - Transformers
 - Sentence-Transformers
 - PEFT (Parameter-Efficient Fine-Tuning)
 - TRL
 - NLTK
-**Evaluation & Visualization**
+3. **Evaluation & Visualization**
 - Scikit Learn   
 - ROUGE   
 - Matplotlib   
