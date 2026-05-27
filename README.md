@@ -43,3 +43,5 @@ The model was evaluated on both in-domain queries (autism-specific) and out-of-d
 | Context Relevancy | 0.780              | 0.505                   |
 | Groundedness      | 0.825              | 0.000                   |
 
+For addtional information regarding the methodology and setup, you may refer to the IEEE paper provided in the repository.
+
