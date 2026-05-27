@@ -1,1 +1,6 @@
-# ai3-project-nlp
+# Welcome to our AI 3 Natural Language Processing (NLP) Github Repository!
+
+## 💡 About
+
+📌 Our project primarily focuses on tackling NLP-based tasks in extracting corpora surrounding mental health disorders, particularly autism. Reasons for choosing such a topic is because its traditional methods in detection is not easily noticeable, especially in its early stages. These may be prone to subjectvity, time constraints, and a resource-dependent environment. Artificial intelligence's goal is to reduce and alleviate these constraints by providing more flexibility and efficiency for clincians and mental health researchers. With that said, AI is used as a complement or auxilliary tool for the desired the mentioned professionals. One task that this project focuses is through extracting textual information related to autism including statistical data, history, potential signs and symptoms of autism, and so on as a way to reduce time in clinical diagnosis and trials for mental health researchers and clinicians. The selected model to be used as a chatbot is the Qwen2.5-1.5B-Instruct, known for its lightweight but accurate when it comes to generating information. It utilizes Low-Rank Adaptation (LoRA) for efficient fine tuning ensuring stable performance across all devices without heavy compromises. Complementary to this, the project also utiliezd a Retrieval-Augmented Generation system or RAG to reinforce memory and reduce hallucinatory responses. 
+
