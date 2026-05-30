@@ -72,5 +72,20 @@ The model was evaluated on both in-domain queries (autism-specific) and out-of-d
 | Context Relevancy | 0.780              | 0.505                   |
 | Groundedness      | 0.825              | 0.000                   |
 
+## ©️ Corpus / Data provenance (sources)
+This project’s autism-centered corpus is based on the following sources:
+
+1) **Open-access edited volume**
+- *A Comprehensive Book on Autism Spectrum Disorders* (Edited by Mohammad‑Reza Mohammadi)  
+  Published: **15 September 2011**  
+  DOI: **10.5772/975**
+
+2) **Commercial book (reference only; not redistributed)**
+- *Autism Spectrum Disorder (revised): The Complete Guide to Understanding Autism* by **Chantal Sicile‑Kira**  
+  Published: **January 7, 2014**  
+  ISBN: **9780399166631**
+
+> **Note:** If any full text from commercial sources is used, ensure you have the rights to use it. This repository should not redistribute copyrighted content without permission.
+
 For addtional information regarding the methodology and setup, you may refer to the IEEE paper provided in the repository.
 
