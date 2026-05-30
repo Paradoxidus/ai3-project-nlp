@@ -4,6 +4,9 @@
 
 📌 Our project primarily focuses on tackling NLP-based tasks in extracting corpora surrounding mental health disorders, particularly autism. Reasons for choosing such a topic is because its traditional methods in detection is not easily noticeable, especially in its early stages. These may be prone to subjectvity, time constraints, and a resource-dependent environment. Artificial intelligence's goal is to reduce and alleviate these constraints by providing more flexibility and efficiency for clincians and mental health researchers. With that said, AI is used as a complement or auxilliary tool for the desired the mentioned professionals. One task that this project focuses is through extracting textual information related to autism including statistical data, history, potential signs and symptoms of autism, and so on as a way to reduce time in clinical diagnosis and trials for mental health researchers and clinicians. The selected model to be used as a chatbot is the Qwen2.5-1.5B-Instruct, known for its lightweight but accurate when it comes to generating information. It utilizes Low-Rank Adaptation (LoRA) for efficient fine tuning ensuring stable performance across all devices without heavy compromises. It is trained using two corpora: [A Comprehensive Book on Autism Spectrum Disorders](https://www.intechopen.com/books/463?fbclid=IwY2xjawSCzopleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeCYUI_usfkld14swXfwgfDaTbrohriNr9-MgPcLcV9CDnn2KZCOLP5krmFhk_aem_KaMi2c7OY9JjN4L43OhOWA) and [Autism Spectrum Disorder (revised)](https://www.intechopen.com/books/463?fbclid=IwY2xjawSCzopleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeCYUI_usfkld14swXfwgfDaTbrohriNr9-MgPcLcV9CDnn2KZCOLP5krmFhk_aem_KaMi2c7OY9JjN4L43OhOWA). Complementary to this, the project also utiliezd a Retrieval-Augmented Generation system or RAG to reinforce memory and reduce hallucinatory responses.
 
+## ⚠️ Disclaimer (Safety / Medical)
+This chatbot is for **informational purposes only** and is **not** a substitute for professional medical advice, diagnosis, or treatment.
+
 ## 👥 Contributors
 
 | Contributors                          | GitHub Username | Role/Responsibility                                                                 | LinkedIn |
@@ -30,6 +33,32 @@
 - Matplotlib   
 - Seaborn   
 - Ipywidgets (For interactive chat interface)
+
+## 🧑‍💻 Run the Streamlit demo (recommended)
+The Streamlit app entrypoint is:
+`hfspace_deployment/app.py`
+
+### Local run (Windows/macOS/Linux)
+```bash
+git clone https://github.com/Paradoxidus/ai3-project-nlp.git
+cd ai3-project-nlp
+
+python -m venv .venv
+# Windows:
+#   .venv\Scripts\activate
+# macOS/Linux:
+#   source .venv/bin/activate
+
+pip install -r hfspace_deployment/requirements.txt
+streamlit run hfspace_deployment/app.py
+```
+
+### Included demo artifacts
+The deployment folder includes:
+- `faiss_index.bin` (FAISS index)
+- `pdf_chunks.pkl` (preprocessed PDF chunks)
+- LoRA adapter files (`adapter_config.json`, `adapter_model.safetensors`)
+- `chat_template.jinja` (prompt template)
 
 ## 📊 Results and Summary
 The model was evaluated on both in-domain queries (autism-specific) and out-of-domain queries to test the safety and refusal mechanisms. The RAGAS evaluation metrics demonstrate high reliability in semantic context and factual accuracy.
